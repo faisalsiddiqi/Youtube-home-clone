@@ -1,0 +1,60 @@
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  top:60px;
+  width: 100px;
+  background-color:rgb(255, 255, 255);
+}
+.home,
+.explore,
+.subscription,
+.orginals,
+.yt-music,
+.playlists{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: transparent;
+  
+
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.home:hover{
+  background-color: rgb(194, 194, 194);
+}
+.explore:hover{
+  background-color: rgb(194, 194, 194);
+}
+.subscription:hover{
+  background-color: rgb(194, 194, 194);
+}
+.orginals:hover{
+  background-color: rgb(194, 194, 194);
+}
+.yt-music:hover{
+  background-color: rgb(194, 194, 194);
+}
+.playlists:hover{
+  background-color: rgb(194, 194, 194);
+}
+
+.home-icon,
+.explore-icon,
+.subscription-icon,
+.orginals-icon,
+.yt-music-icons,
+.playlists-icon{
+  width: 40%;
+  padding-top: 5px;
+}

@@ -1,0 +1,203 @@
+
+  .css-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    margin-bottom: 15px;
+
+
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+
+    background-color: white;
+  }
+
+  /* left side of heder */
+  .css-header-left-icons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left:10px;
+  }
+
+  .css-header-menu-icon-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+
+  }
+  .css-header-menu-icon-btn:hover{
+    background-color:  rgb(220, 220, 220);
+  }
+  .css-header-menu-icon{
+    width: 70%;
+  }
+  .css-header-yt-logo-div{
+    width: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+  }
+  .css-header-yt-logo{
+    width: 100%;
+  }
+
+  /* center of the search bar */
+  .css-header-search-div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-shrink: 0;
+  }
+
+  .css-search-bar{
+    flex:1;
+    width: 0;
+    max-width: 60%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: solid;
+    border-color: grey;
+    border-width: 1px;
+    font-size: 16px;
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.10);
+  }
+  .css-search-bar::placeholder{
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  .css-search-bar:focus{
+    outline: none;
+    border: solid;
+    border-color: skyblue;
+    border-width: 1px;
+    padding-left: 15px;
+  }
+  .css-search-icon-btn{
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-left-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .css-search-icon-btn:hover{
+    background-color: rgb(220, 220, 220);
+  }
+  .css-search-icon{
+    width: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .css-mic-icon-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  .css-mic-icon-btn:hover{
+    background-color: rgb(220, 220, 220);
+  }
+
+  .css-mic-icon{
+    width: 70%;
+  }
+
+  /* right side of the header */
+  .css-header-right-icons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .css-header-upload-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .css-header-upload-btn:hover{
+   background-color:  rgb(220, 220, 220);
+  }
+  .css-header-upload{
+    width:70%
+  }
+  .css-header-bell-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+  }
+  .css-header-notification-count{
+    position: absolute;
+    top: -7px;
+    right: 3px;
+
+    padding: 1px  5px  1px  5px;
+    
+    background-color: rgb(208, 3, 3);
+    border-radius: 10px;
+
+  }
+  .css-header-bell-btn:hover{
+   background-color:  rgb(220, 220, 220);
+  }
+  .css-header-bell{
+    width:70%
+  }
+
+  .css-header-profile-dp-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.10);
+  }
+
+  .css-header-profile-dp{
+    width: 30px;
+  }
+
